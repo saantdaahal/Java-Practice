@@ -1,29 +1,33 @@
-public class Tuple { 
-    public  int x; 
-    public  int y; 
+public class Tuple {
+    public int x;
+    public int y;
     public int xf;
     public int yf;
-    
-    public Tuple(int x, int y) { 
-      this.x = x; 
-      this.y = y; 
-    } 
-    public void ChangeData(int x, int y){
-          this.x = x; 
-          this.y = y; 
+
+    public Tuple(int x, int y) {
+        this.x = x;
+        this.y = y;
     }
-    public int getX(){
+
+    public void ChangeData(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    public int getX() {
         return x;
     }
-    public int getY(){
+
+    public int getY() {
         return y;
     }
-    public int getXf(){
+
+    public int getXf() {
         return xf;
     }
-    public int getYf(){
+
+    public int getYf() {
         return yf;
     }
-        
-        
-} 
+
+}
